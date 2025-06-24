@@ -60,7 +60,7 @@ body {
 }
 
 .local-seo {
-	visibility: hidden;
+	display: none;
 }
 
 .picture.left::before {
