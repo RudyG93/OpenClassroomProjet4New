@@ -45,6 +45,11 @@ body {
 	width: 20px;
 }
 
+.visually-hidden {
+	color: white;
+	background-color: black;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -52,6 +57,10 @@ body {
 	padding-block: 100px;
 	position: relative;
 	justify-content: space-between;
+}
+
+.local-seo {
+	visibility: hidden;
 }
 
 .picture.left::before {
@@ -129,8 +138,8 @@ img {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: #000000;
+	background-color: #5EC4DE;
 	border-radius: 0;
 }
 
